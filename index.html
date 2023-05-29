@@ -1,0 +1,606 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Homepage - Spotify</title>
+    <link href="styles.css" rel="stylesheet" />
+    <link rel="shortcut icon" href="images/favicon.png" />
+  </head>
+  <body>
+    <div class="left-bar">
+      <div class="spotilogo">
+        <img src="images/Spotify_Logo_RGB_White_350px.png" alt="Spotify Logo" />
+      </div>
+      <div>
+        <div class="button-side">
+          <img src="images/home-icon.png" alt="Home icon" />
+          <h2>Início</h2>
+        </div>
+        <div class="button-side">
+          <img src="images/search-icon.png" alt="Search icon" />
+          <h2>Buscar</h2>
+        </div>
+        <div class="button-side" id="library-button">
+          <img src="images/library-icon.png" alt="Library icon" />
+          <h2>Sua Biblioteca</h2>
+        </div>
+      </div>
+      <div class="button-side-create-playlist" id="create-playlist-bt">
+        <img src="images/create-playlist-t.png" alt="Create playlist icon" />
+        <h2>Criar playlist</h2>
+      </div>
+      <div class="button-side-liked-songs" id="liked-songs-bt">
+        <img src="images/liked-songs-150.jpg" alt="Liked songs icon" />
+        <h2>Músicas curtidas</h2>
+      </div>
+      <div class="left-cookies">
+        <p><a href="spotify.com">Cookies</a></p>
+      </div>
+      <div class="left-button">
+        <button id="lg-panel-button">Português do Brasil</button>
+      </div>
+    </div>
+    <div class="translucid-up">
+      <div class="translucid-up-buttons">
+        <button class="translucid-left-button"><</button
+        ><button class="translucid-right-button">></button>
+      </div>
+      <div class="translucid-up-rightside">
+        <div class="premium-button">
+          <h2>Premium</h2>
+        </div>
+        <div class="support-n-download-bt-1">
+          <h2>Suporte</h2>
+        </div>
+        <div class="support-n-download-bt-2">
+          <h2>Baixar</h2>
+        </div>
+        <div class="white-dash"></div>
+        <div class="subscribe-button"><h2>Inscrever-se</h2></div>
+        <div class="login-button">
+          <button>Entrar</button>
+        </div>
+      </div>
+    </div>
+    <div class="mainpage">
+      <div class="spacer"></div>
+      <div class="mp-title">
+        <h1>Baseado em seus gostos</h1>
+      </div>
+      <div class="mp-carousel-of-items">
+        <div class="mp-carousel-element">
+          <img src="images/rock-mix.png" alt="Photo of a rock playlist" />
+          <h1>Rock mix</h1>
+          <p>Scorpions, AC/DC and a lot more!</p>
+          <button class="play-button">
+            <img src="images/play-icon.png" alt="play" />
+          </button>
+        </div>
+        <div class="mp-carousel-element">
+          <img src="images/metal-mix.png" alt="Photo of a rock playlist" />
+          <h1>Metal mix</h1>
+          <p>Sepultura, Megadeth and a lot more to make some noise!</p>
+          <button class="play-button">
+            <img src="images/play-icon.png" alt="play" />
+          </button>
+        </div>
+        <div class="mp-carousel-element">
+          <img src="images/punk-mix.png" alt="Photo of a rock playlist" />
+          <h1>Punk mix</h1>
+          <p>
+            The Clash, Rage Against The Machine to help you on your revolution!
+          </p>
+          <button class="play-button">
+            <img src="images/play-icon.png" alt="play" />
+          </button>
+        </div>
+        <div class="mp-carousel-element">
+          <img src="images/80s-mix.png" alt="Photo of a rock playlist" />
+          <h1>80's mix</h1>
+          <p>A bit of the 80's energy for you.</p>
+          <button class="play-button">
+            <img src="images/play-icon.png" alt="play" />
+          </button>
+        </div>
+        <div class="mp-carousel-element">
+          <img src="images/90s-mix.png" alt="Photo of a rock playlist" />
+          <h1>90's mix</h1>
+          <p>
+            Ozzy Ousborne, Metallica and way more rockstars are waiting for you
+            on 90's mix
+          </p>
+          <button class="play-button">
+            <img src="images/play-icon.png" alt="play" />
+          </button>
+        </div>
+        <div class="mp-carousel-element">
+          <img src="images/00s-mix.png" alt="Photo of a rock playlist" />
+          <h1>00's mix</h1>
+          <p>The rage of the 00's songs are the pump for your days</p>
+          <button class="play-button">
+            <img src="images/play-icon.png" alt="play" />
+          </button>
+        </div>
+        <div class="mp-carousel-element">
+          <img
+            src="images/dire-straits-mix.png"
+            alt="Photo of a rock playlist"
+          />
+          <h1>Dire Straits mix</h1>
+          <p>Dire Straits, Pink Floyd and a new world of rock songs for you</p>
+          <button class="play-button">
+            <img src="images/play-icon.png" alt="play" />
+          </button>
+        </div>
+        <div class="mp-carousel-element">
+          <img src="images/metallica-mix.png" alt="Photo of a rock playlist" />
+          <h1>Metallica mix</h1>
+          <p>Mettalica and the 72 Season album are just insane</p>
+          <button class="play-button">
+            <img src="images/play-icon.png" alt="play" />
+          </button>
+        </div>
+      </div>
+
+      <div class="mp-title">
+        <h1>Dia do Rock!</h1>
+        <img src="images/hand-white.png" alt="Rock symbol" />
+      </div>
+      <div class="mp-carousel-of-items">
+        <div class="mp-carousel-element">
+          <img
+            src="images/this-is-rolling-stones.PNG"
+            alt="Photo of a rock playlist"
+          />
+          <h1>The Rolling Stones</h1>
+          <p>This is The Rolling Stones. All their hits in one playlist.</p>
+          <button class="play-button">
+            <img src="images/play-icon.png" alt="play" />
+          </button>
+        </div>
+        <div class="mp-carousel-element">
+          <img
+            src="images/rock-power-ballads.PNG"
+            alt="Photo of a rock playlist"
+          />
+          <h1>Rock power ballads</h1>
+          <p>
+            Emotional and powerful - let your feelings out with these classic
+            power ballads.
+          </p>
+          <button class="play-button">
+            <img src="images/play-icon.png" alt="play" />
+          </button>
+        </div>
+        <div class="mp-carousel-element">
+          <img src="images/All new rock.PNG" alt="Photo of a rock playlist" />
+          <h1>All new rock</h1>
+          <p>The best new rock tracks every week.</p>
+          <button class="play-button">
+            <img src="images/play-icon.png" alt="play" />
+          </button>
+        </div>
+        <div class="mp-carousel-element">
+          <img src="images/legendary.PNG" alt="Photo of a rock playlist" />
+          <h1>Legendary</h1>
+          <p>Great songs by indisputable music legends.</p>
+          <button class="play-button">
+            <img src="images/play-icon.png" alt="play" />
+          </button>
+        </div>
+        <div class="mp-carousel-element">
+          <img src="images/rock-classics.PNG" alt="Photo of a rock playlist" />
+          <h1>Rock classics</h1>
+          <p>Rock legends & epic songs that continue to inspire generations.</p>
+          <button class="play-button">
+            <img src="images/play-icon.png" alt="play" />
+          </button>
+        </div>
+        <div class="mp-carousel-element">
+          <img src="images/rock-forever.PNG" alt="Photo of a rock playlist" />
+          <h1>Rock forever</h1>
+          <p>The hits of international rock are reunited in this playlist.</p>
+          <button class="play-button">
+            <img src="images/play-icon.png" alt="play" />
+          </button>
+        </div>
+        <div class="mp-carousel-element">
+          <img src="images/rock-party.PNG" alt="Photo of a rock playlist" />
+          <h1>Rock party</h1>
+          <p>The ultimate rock party playlist!</p>
+          <button class="play-button">
+            <img src="images/play-icon.png" alt="play" />
+          </button>
+        </div>
+        <div class="mp-carousel-element">
+          <img src="images/grunge-forever.PNG" alt="Photo of a rock playlist" />
+          <h1>Grunge forever</h1>
+          <p>Grunge will live forever.</p>
+          <button class="play-button">
+            <img src="images/play-icon.png" alt="play" />
+          </button>
+        </div>
+      </div>
+      <div class="mp-bottom">
+        <div class="mp-bt-1">
+          <div class="mp-links">
+            <div class="mp-paragraph">
+              <h2>Company</h2>
+              <p>About</p>
+              <p>Jobs</p>
+              <p>For the Record</p>
+            </div>
+            <div class="mp-paragraph">
+              <h2>Communities</h2>
+              <p>For Artists</p>
+              <p>Developers</p>
+              <p>Advertising</p>
+              <p>Investors</p>
+              <p>Vendors</p>
+              <p>Spotify For Work</p>
+            </div>
+            <div class="mp-paragraph">
+              <h2>Useful Links</h2>
+              <p>Support</p>
+              <p>Free Mobile App</p>
+            </div>
+          </div>
+          <div class="mp-social">
+            <img src="images/insta-icon.png" alt="Instagram button" />
+            <img src="images/tt-icon.png" alt="Twitter button" />
+            <img src="images/fb-icon.png" alt="Facebook button" />
+          </div>
+        </div>
+        <div class="mp-divisor"></div>
+        <div class="mp-copyright">
+          <p>© 2023 Spotify AB</p>
+        </div>
+        <div class="spacer-2"></div>
+      </div>
+    </div>
+    <footer>
+      <div>
+        <section>AMOSTRA DO SPOTIFY</section>
+        <h2>
+          Inscreva-se para curtir música ilimitada e podcasts só com alguns
+          anúncios. Não precisa de cartão de crédito.
+        </h2>
+      </div>
+      <button>Inscreva-se grátis</button>
+    </footer>
+    <div class="language-window-transparent" id="lg-panel">
+      <div class="language-window">
+        <div class="lw-title-section">
+          <h2>Escolha um idioma</h2>
+          <p>Essa configuração atualiza o que você lê no open.spotify.com.</p>
+          <button class="lw-open-close-bt" id="exit-panel-button">
+            <img src="images/close-bt-gray.png" alt="" />
+          </button>
+          <div class="lw-separate"></div>
+        </div>
+        <div class="lw-select">
+          <div class="lw-language-row">
+            <div class="lw-language-bt">
+              <h2>English</h2>
+              <p>English</p>
+            </div>
+
+            <div class="lw-language-bt">
+              <h2>Azərbaycanca</h2>
+              <p>Azerbaijani</p>
+            </div>
+
+            <div class="lw-language-bt">
+              <h2>Català</h2>
+              <p>Catalan</p>
+            </div>
+
+            <div class="lw-language-bt">
+              <h2>Ελληνικά</h2>
+              <p>Greek</p>
+            </div>
+
+            <div class="lw-language-bt">
+              <h2>فارسی</h2>
+              <p>Persian</p>
+            </div>
+
+            <div class="lw-language-bt">
+              <h2>Français canadien</h2>
+              <p>Canadian French</p>
+            </div>
+
+            <div class="lw-language-bt">
+              <h2>Hrvatski</h2>
+              <p>Croatian</p>
+            </div>
+
+            <div class="lw-language-bt">
+              <h2>Italiano</h2>
+              <p>Italian</p>
+            </div>
+
+            <div class="lw-language-bt">
+              <h2>Lietuvių</h2>
+              <p>Lithuanian</p>
+            </div>
+
+            <div class="lw-language-bt">
+              <h2>Bahasa Melayu</h2>
+              <p>Malay</p>
+            </div>
+
+            <div class="lw-language-bt">
+              <h2>ଓଡ଼ିଆ</h2>
+              <p>Odia</p>
+            </div>
+
+            <div class="lw-language-bt">
+              <h2>Português do Brasil</h2>
+              <p>Brazilian Portuguese</p>
+            </div>
+
+            <div class="lw-language-bt">
+              <h2>Slovenčina</h2>
+              <p>Slovak</p>
+            </div>
+
+            <div class="lw-language-bt">
+              <h2>Türkçe</h2>
+              <p>Turkish</p>
+            </div>
+
+            <div class="lw-language-bt">
+              <h2>简体中文</h2>
+              <p>Simplified Chinese</p>
+            </div>
+          </div>
+          <div class="lw-language-row">
+            <div class="lw-language-bt">
+              <h2>English</h2>
+              <p>English</p>
+            </div>
+
+            <div class="lw-language-bt">
+              <h2>Azərbaycanca</h2>
+              <p>Azerbaijani</p>
+            </div>
+
+            <div class="lw-language-bt">
+              <h2>Català</h2>
+              <p>Catalan</p>
+            </div>
+
+            <div class="lw-language-bt">
+              <h2>Ελληνικά</h2>
+              <p>Greek</p>
+            </div>
+
+            <div class="lw-language-bt">
+              <h2>فارسی</h2>
+              <p>Persian</p>
+            </div>
+
+            <div class="lw-language-bt">
+              <h2>Français canadien</h2>
+              <p>Canadian French</p>
+            </div>
+
+            <div class="lw-language-bt">
+              <h2>Hrvatski</h2>
+              <p>Croatian</p>
+            </div>
+
+            <div class="lw-language-bt">
+              <h2>Italiano</h2>
+              <p>Italian</p>
+            </div>
+
+            <div class="lw-language-bt">
+              <h2>Lietuvių</h2>
+              <p>Lithuanian</p>
+            </div>
+
+            <div class="lw-language-bt">
+              <h2>Bahasa Melayu</h2>
+              <p>Malay</p>
+            </div>
+
+            <div class="lw-language-bt">
+              <h2>ଓଡ଼ିଆ</h2>
+              <p>Odia</p>
+            </div>
+
+            <div class="lw-language-bt">
+              <h2>Português do Brasil</h2>
+              <p>Brazilian Portuguese</p>
+            </div>
+
+            <div class="lw-language-bt">
+              <h2>Slovenčina</h2>
+              <p>Slovak</p>
+            </div>
+
+            <div class="lw-language-bt">
+              <h2>Türkçe</h2>
+              <p>Turkish</p>
+            </div>
+
+            <div class="lw-language-bt">
+              <h2>简体中文</h2>
+              <p>Simplified Chinese</p>
+            </div>
+          </div>
+          <div class="lw-language-row">
+            <div class="lw-language-bt">
+              <h2>English</h2>
+              <p>English</p>
+            </div>
+
+            <div class="lw-language-bt">
+              <h2>Azərbaycanca</h2>
+              <p>Azerbaijani</p>
+            </div>
+
+            <div class="lw-language-bt">
+              <h2>Català</h2>
+              <p>Catalan</p>
+            </div>
+
+            <div class="lw-language-bt">
+              <h2>Ελληνικά</h2>
+              <p>Greek</p>
+            </div>
+
+            <div class="lw-language-bt">
+              <h2>فارسی</h2>
+              <p>Persian</p>
+            </div>
+
+            <div class="lw-language-bt">
+              <h2>Français canadien</h2>
+              <p>Canadian French</p>
+            </div>
+
+            <div class="lw-language-bt">
+              <h2>Hrvatski</h2>
+              <p>Croatian</p>
+            </div>
+
+            <div class="lw-language-bt">
+              <h2>Italiano</h2>
+              <p>Italian</p>
+            </div>
+
+            <div class="lw-language-bt">
+              <h2>Lietuvių</h2>
+              <p>Lithuanian</p>
+            </div>
+
+            <div class="lw-language-bt">
+              <h2>Bahasa Melayu</h2>
+              <p>Malay</p>
+            </div>
+
+            <div class="lw-language-bt">
+              <h2>ଓଡ଼ିଆ</h2>
+              <p>Odia</p>
+            </div>
+
+            <div class="lw-language-bt">
+              <h2>Português do Brasil</h2>
+              <p>Brazilian Portuguese</p>
+            </div>
+
+            <div class="lw-language-bt">
+              <h2>Slovenčina</h2>
+              <p>Slovak</p>
+            </div>
+
+            <div class="lw-language-bt">
+              <h2>Türkçe</h2>
+              <p>Turkish</p>
+            </div>
+
+            <div class="lw-language-bt">
+              <h2>简体中文</h2>
+              <p>Simplified Chinese</p>
+            </div>
+          </div>
+          <div class="lw-language-row">
+            <div class="lw-language-bt">
+              <h2>English</h2>
+              <p>English</p>
+            </div>
+
+            <div class="lw-language-bt">
+              <h2>Azərbaycanca</h2>
+              <p>Azerbaijani</p>
+            </div>
+
+            <div class="lw-language-bt">
+              <h2>Català</h2>
+              <p>Catalan</p>
+            </div>
+
+            <div class="lw-language-bt">
+              <h2>Ελληνικά</h2>
+              <p>Greek</p>
+            </div>
+
+            <div class="lw-language-bt">
+              <h2>فارسی</h2>
+              <p>Persian</p>
+            </div>
+
+            <div class="lw-language-bt">
+              <h2>Français canadien</h2>
+              <p>Canadian French</p>
+            </div>
+
+            <div class="lw-language-bt">
+              <h2>Hrvatski</h2>
+              <p>Croatian</p>
+            </div>
+
+            <div class="lw-language-bt">
+              <h2>Italiano</h2>
+              <p>Italian</p>
+            </div>
+
+            <div class="lw-language-bt">
+              <h2>Lietuvių</h2>
+              <p>Lithuanian</p>
+            </div>
+
+            <div class="lw-language-bt">
+              <h2>Bahasa Melayu</h2>
+              <p>Malay</p>
+            </div>
+
+            <div class="lw-language-bt">
+              <h2>ଓଡ଼ିଆ</h2>
+              <p>Odia</p>
+            </div>
+
+            <div class="lw-language-bt">
+              <h2>Português do Brasil</h2>
+              <p>Brazilian Portuguese</p>
+            </div>
+
+            <div class="lw-language-bt">
+              <h2>Slovenčina</h2>
+              <p>Slovak</p>
+            </div>
+
+            <div class="lw-language-bt">
+              <h2>Türkçe</h2>
+              <p>Turkish</p>
+            </div>
+
+            <div class="lw-language-bt">
+              <h2>简体中文</h2>
+              <p>Simplified Chinese</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="interactive-arrow">
+      <img
+        src="images/right-arrow.png"
+        alt="arrow icon"
+        id="interactive-arrow"
+      />
+    </div>
+    <div class="interactive-component" id="interactive-component">
+      <h2>Um exemplo de h2 aqui</h2>
+      <p>Um exemplo de p aqui</p>
+      <div class="ic-not-now-bt" id="ic-not-now-bt">Agora não</div>
+      <button class="ic-login-bt" id="ic-login-bt">Entrar</button>
+    </div>
+    <script src="index.js"></script>
+  </body>
+</html>
